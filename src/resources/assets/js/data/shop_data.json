@@ -1,0 +1,21 @@
+[
+  {
+      "shop_id": 1,
+      "shop_name": "内容1",
+      "shop_url": "内容2",
+      "shop_start": "18:00",
+      "shop_end": "24:00",
+      "shop_op": 1,
+      "shop_title": "内容3",
+      "shop_desc": "内容4",
+      "shop_logo": "test.jpg",
+      "shop_ico": "test.jpg",
+      "shop_image_main": "",
+      "shop_image_sub": "test.jpg",
+      "shop_widget": "<p>testWidget</p>",
+
+      "status": 0,
+      "regist_dt": "0000-00-00 00:00:00",
+      "update_dt": "0000-00-00 00:00:00"
+  }
+]

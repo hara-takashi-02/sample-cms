@@ -1,0 +1,32 @@
+[
+    {
+        "item_id": 1,
+        "item_root": 23,
+        "item_title": "フロータイトル",
+        "item_detail": "フロー文章",
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 2,
+        "item_root": 23,
+        "item_title": "",
+        "item_detail": "",
+        "item_order": 1,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 3,
+        "item_root": 23,
+        "item_title": "フロータイトル3",
+        "item_detail": "フロー文章3",
+        "item_order": 2,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    }
+]

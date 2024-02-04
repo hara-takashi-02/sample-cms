@@ -1,0 +1,28 @@
+[
+    {
+        "item_id": 1,
+        "item_root": 16,
+        "item_type": 0,
+        "item_photo": "test.jpg",
+        "item_url": "https://google.com/",
+        "item_alt": "alt設定",
+        "item_target": 0,
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 2,
+        "item_root": 17,
+        "item_type": 1,
+        "item_photo": "",
+        "item_url": "",
+        "item_alt": "alt設定2",
+        "item_target": 1,
+        "item_order": 1,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    }
+]

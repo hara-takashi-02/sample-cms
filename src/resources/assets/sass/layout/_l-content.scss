@@ -1,0 +1,11 @@
+@use "../global" as g;
+/*================
+ l-content
+ ================*/
+.l-content{
+    width: 100%;
+    position: relative;
+    @include g.mq(md, min) {
+        padding-right: 10rem;
+    }
+}

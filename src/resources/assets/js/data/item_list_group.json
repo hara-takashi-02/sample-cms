@@ -1,0 +1,47 @@
+[
+    {
+        "item_id": 1,
+        "item_root": 26,
+        "item_photo": "test.jpg",
+        "item_shop": "内容1",
+        "item_url": "内容2",
+        "item_genre": "内容3",
+        "item_tel": "内容4",
+        "item_time": "内容5",
+        "item_address": "内容6",
+        "item_order": 1,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 2,
+        "item_root": 26,
+        "item_photo": "test.jpg",
+        "item_shop": "",
+        "item_url": "",
+        "item_genre": "",
+        "item_tel": "",
+        "item_time": "",
+        "item_address": "",
+        "item_order": 1,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 3,
+        "item_root": 26,
+        "item_photo": "test.jpg",
+        "item_shop": "",
+        "item_url": "",
+        "item_genre": "",
+        "item_tel": "",
+        "item_time": "",
+        "item_address": "",
+        "item_order": 1,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    }
+]

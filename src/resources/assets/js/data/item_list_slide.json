@@ -1,0 +1,80 @@
+[
+    {
+        "item_id": 1,
+        "item_root": 18,
+        "item_title": "スライドタイトル1",
+        "item_photo": "test.jpg",
+        "item_url": "https://google.com",
+        "item_target": 0,
+        "item_alt": "alt設定",
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 2,
+        "item_root": 18,
+        "item_title": "スライドタイトル2",
+        "item_photo": "",
+        "item_url": "",
+        "item_target": 1,
+        "item_alt": "",
+        "item_order": 1,
+        "status": 1,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 3,
+        "item_root": 18,
+        "item_title": "スライドタイトル3",
+        "item_photo": "test.jpg",
+        "item_url": "",
+        "item_target": 0,
+        "item_alt": "",
+        "item_order": 2,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 4,
+        "item_root": 18,
+        "item_title": "スライドタイトル4",
+        "item_photo": "",
+        "item_url": "",
+        "item_target": 0,
+        "item_alt": "",
+        "item_order": 3,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 5,
+        "item_root": 18,
+        "item_title": "スライドタイトル5",
+        "item_photo": "test.jpg",
+        "item_url": "",
+        "item_target": 0,
+        "item_alt": "",
+        "item_order": 4,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 6,
+        "item_root": 18,
+        "item_title": "スライドタイトル6",
+        "item_photo": "test.jpg",
+        "item_url": "",
+        "item_target": 0,
+        "item_alt": "",
+        "item_order": 5,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    }
+]

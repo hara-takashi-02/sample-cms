@@ -1,0 +1,46 @@
+[
+  {
+    "color_id": 1,
+    "color_name": "オリジナル",
+    "color_code": "FF9494",
+    "color_code_font": "5F2626",
+    "color_choice": 1,
+    "color_order": 0,
+    "status": 0,
+    "regist_dt": "0000-00-00 00:00:00",
+    "update_dt": "0000-00-00 00:00:00"
+  },
+  {
+    "color_id": 2,
+    "color_name": "ホワイト",
+    "color_code": "FFFFFF",
+    "color_code_font": "",
+    "color_choice": 0,
+    "color_order": 0,
+    "status": 0,
+    "regist_dt": "0000-00-00 00:00:00",
+    "update_dt": "0000-00-00 00:00:00"
+  },
+  {
+    "color_id": 3,
+    "color_name": "ブラック",
+    "color_code": "1F1F1F",
+    "color_code_font": "",
+    "color_choice": 1,
+    "color_order": 0,
+    "status": 0,
+    "regist_dt": "0000-00-00 00:00:00",
+    "update_dt": "0000-00-00 00:00:00"
+  },
+  {
+    "color_id": 4,
+    "color_name": "ブルー",
+    "color_code": "0046E5",
+    "color_code_font": "",
+    "color_choice": 1,
+    "color_order": 0,
+    "status": 0,
+    "regist_dt": "0000-00-00 00:00:00",
+    "update_dt": "0000-00-00 00:00:00"
+  }
+]

@@ -1,0 +1,36 @@
+@use "../global" as g;
+
+.loginContent{
+    width: 100%;
+    margin: 10rem auto;
+    padding: 11.4rem 1rem 16rem;
+}
+
+.login{
+    max-width: 328px;
+    margin: 0 auto;
+    label{
+        font-size: 1.2rem;
+    }
+    input{
+        margin-top: 1rem;
+    }
+}
+
+.login__title{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login__item{
+    margin-top: 2rem;
+}
+
+.login__hold{
+    display: flex;
+    align-items: center;
+    .txt{
+        margin-left: 1rem;
+    }
+}

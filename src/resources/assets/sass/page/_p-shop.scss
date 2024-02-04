@@ -1,0 +1,1180 @@
+@use "../global" as g;
+
+/*
+* ------------
+* 求人情報
+* ------------
+*/
+.mainFillter {
+    margin-top: 3rem;
+
+    .title {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        width: calc(50% - 1rem);
+        border: solid 1px g.$color_admin_btn;
+        color: g.$color_admin_btn;
+        background-color: #fff;
+        text-align: center;
+        line-height: 1;
+        border-radius: 0.5rem;
+        font-size: 1.2rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+
+        @include g.mq(md, min) {
+            width: 11rem;
+        }
+
+        label {
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            margin: 0;
+
+            input:checked+span {
+                background-color: g.$color_admin_btn;
+                color: #fff;
+            }
+        }
+
+        span {
+            display: block;
+            padding: 1rem 0;
+        }
+    }
+}
+
+.mainItemWrap {
+    padding-top: 4rem;
+}
+
+.mainItemWrap.is-hidden {
+    display: none;
+}
+
+.mainItem {
+    position: relative;
+    margin: 0 auto 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 0.1rem g.$color_admin_btn;
+    background-color: #fffef6;
+    overflow: hidden;
+
+    @include g.mq(md, min) {
+        padding: 3rem;
+    }
+
+    &.is-grey {
+        background-color: #ededed;
+    }
+}
+
+.mainItem__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+    label {
+        margin: .5rem;
+    }
+
+    .c-switch {
+        margin-right: 1rem;
+        margin-left: auto;
+    }
+}
+
+.mainItem__title {
+    min-width: 13rem;
+    font-size: 1.6rem;
+    border-left: solid .5rem g.$color_admin_border;
+    padding-left: 1rem;
+    margin: .5rem 0;
+}
+
+// コンテンツタイトル
+.mainItem__head{
+    .titleForm {
+        width: 100%;
+        margin-top: 1rem;
+    
+        @include g.mq(md, min) {
+            width: 55%;
+            min-width: 15rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 0;
+        }
+    
+        input {
+            width: 100%;
+            margin-top: 1rem;
+    
+            @include g.mq(md, min) {
+                width: calc(100% - 7rem);
+                margin-top: 0;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+
+.titleForm--single {
+    width: 100%;
+
+    @include g.mq(md, min) {
+        width: 50%;
+    }
+}
+
+/*
+* ------------
+* 注意文
+* ------------
+*/
+.mainItem__infoTxt {
+    margin-bottom: 3rem;
+    display: block;
+    font-size: 1.3rem;
+
+    li {
+        color: g.$color_red;
+    }
+}
+
+
+/*
+* ------------
+* ソートボタン・一括表示
+* ------------
+*/
+.mainSortBtn {
+    text-align: center;
+    border-radius: 3rem;
+    width: 20rem;
+    margin: 0 1rem;
+    padding: 1rem;
+    display: block;
+}
+
+.mainShowAllBtn {
+    border-radius: 3rem;
+    width: 20rem;
+    margin: 0 1rem;
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/*
+* ------------
+* 画像
+* ------------
+*/
+.mainItem--img {
+    .c-textarea {
+        margin-top: 1rem;
+    }
+}
+
+.contentImg__item {
+    .c-imgBox {
+        margin-top: 3rem;
+        //background-color: g.$color_admin_back;
+    }
+}
+
+.contentImg__op {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    .link,
+    .alt {
+        width: 100%;
+        padding: 1rem;
+
+        @include g.mq(md, min) {
+            width: 50%;
+        }
+
+        label {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        input {
+            width: 100%;
+            margin-top: 1rem;
+
+            @include g.mq(md, min) {
+                width: calc(100% - 8rem);
+                margin-left: 1rem;
+                margin-top: 0;
+            }
+        }
+    }
+
+    .alt {}
+
+    .target {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 1rem;
+
+        ul {
+            margin-left: 1rem;
+        }
+    }
+}
+
+/*
+* ------------
+* 求人情報
+* ------------
+*/
+.mainItem--Rec {}
+
+.contentinfo {
+    .c-btnAdd {
+        margin-top: 3rem;
+    }
+}
+
+.contentInfo__item {
+    position: relative;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: solid 0.1rem g.$color_admin_border;
+    background: #fff;
+
+    .c-radio {
+        width: 100%;
+        margin-top: 0;
+    }
+    .c-delBtn{
+        margin-left: auto;
+    }
+}
+
+.contentInfo__main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    @include g.mq(md, min) {
+        width: calc(100% - 3rem);
+    }
+}
+
+.contentInfo__text {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    label {
+        width: 100%;
+
+        @include g.mq(md, min) {
+            width: 30%;
+        }
+    }
+
+    textarea {
+        width: 100%;
+        margin-top: 1rem;
+        min-height: 14rem;
+
+        @include g.mq(md, min) {
+            width: calc(70% - 1rem);
+            margin-top: 0;
+            margin-left: 1rem;
+        }
+    }
+}
+
+/*
+* ------------
+* フリーワード
+* ------------
+*/
+.contentFree__main {
+    .review {
+        margin: 1rem 0;
+    }
+
+    .widget {
+        background-color: g.$color_admin_back;
+        min-height: 5rem;
+        padding: 1rem;
+    }
+}
+
+.mainItem--free {
+    .c-textarea {
+        margin-top: 2rem;
+    }
+}
+
+/*
+* ------------
+* スライダー
+* ------------
+*/
+.contentslideInner {
+    @include g.mq(md, min) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.contentSlide__item {
+    width: 100%;
+    margin: 0.5rem;
+    border: solid g.$color_admin_border 1px;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    @include g.mq(md, min) {
+        width: calc(100%/2 - 1rem);
+    }
+
+    @include g.mq(lg, min) {
+        width: calc(100%/3 - 1rem);
+    }
+}
+
+.contentSlide__item.is-grey {
+    background-color: #ededed;
+}
+
+.contentslideInner {
+
+    .link,
+    .alt,
+    .target {
+        margin-top: 1rem;
+
+        input {
+            margin-top: .5rem;
+        }
+    }
+
+    .link {}
+
+    .alt {}
+
+    .target {}
+}
+
+.btnSetSlide {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;
+    border-top: 1px solid g.$color_admin_border;
+    padding-top: 1rem;
+
+    .c-switch {
+        min-width: 8.5rem;
+        width: 30%;
+        margin: 0.5rem;
+
+        .label {
+            li {
+                font-size: 1rem;
+                margin-right: 0;
+            }
+        }
+
+        .slider::before {
+            line-height: 2.4;
+            font-size: 1rem;
+        }
+    }
+
+    .c-btn {
+        font-size: 1.2rem;
+        width: 30%;
+        padding: 0.8rem 0;
+    }
+}
+
+/*
+* ------------
+* 動画
+* ------------
+*/
+.mainItem--mv {
+    .c-textarea {
+        margin-top: 3rem;
+    }
+}
+
+.contentMv {
+    display: flex;
+    flex-wrap: wrap;
+
+    .c-textarea {
+        margin-top: 2rem;
+    }
+}
+
+.contentMv__item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contentMv__mv,
+.contentMv__img {
+    width: 100%;
+    margin: 2rem 0;
+
+    @include g.mq(md, min) {
+        width: calc(100%/3 - 1rem);
+        margin: 0.5rem;
+    }
+
+    button {
+        width: calc(50% - 1rem);
+    }
+
+    .title {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.contentMv__mv {
+    video {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.contentMv__nav {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+* ------------
+* 店内写真
+* ------------
+*/
+.mainItem--imgs {
+    .c-textarea {
+        margin-top: 3rem;
+    }
+}
+
+.contentimgsInner {
+    @include g.mq(md, min) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.contentImgs__item {
+    width: 100%;
+    margin: 0.5rem;
+    border: solid g.$color_admin_border 1px;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    @include g.mq(md, min) {
+        width: calc(100%/2 - 1rem);
+    }
+
+    @include g.mq(lg, min) {
+        width: calc(100%/3 - 1rem);
+    }
+
+    .alt {
+        margin-top: 1rem;
+
+        input {
+            margin-top: 1rem;
+        }
+    }
+
+    .c-imgBox {
+        background-color: g.$color_admin_back;
+    }
+
+
+}
+
+.btnSetImgs {}
+
+/*
+* ------------
+* 待遇
+* ------------
+*/
+.mainItem--recep {
+    .c-textarea {
+        margin-top: 3rem;
+    }
+}
+
+.contentrecepInner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contentRecep__item {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    padding-left: 0;
+
+    .c-delBtn {
+        margin-left: 0.5rem;
+    }
+}
+
+.contentRecep__main {
+    padding: 0.2rem 1rem;
+    background-color: #FFE2E2;
+    color: #FF4343;
+    border: #FF4343 solid 1px;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+
+
+}
+
+.contentrecep {
+    .c-input {
+        width: 65%;
+    }
+
+    .btnAddCtg {
+        min-width: 6rem;
+        color: #fff;
+        background-color: #5DBDB1;
+        border-radius: 0.5rem;
+        font-size: 1.4rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        cursor: pointer;
+    }
+}
+
+/*
+* ------------
+* 用意するもの
+* ------------
+*/
+.mainItem--standby {
+    .c-textarea {
+        margin-top: 3rem;
+    }
+}
+
+.contentstandbyInner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contentStandby__item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 0;
+    padding-top: 0;
+    @include g.mq(lg, min) {
+        padding: 1.5rem;
+    }
+
+    .c-delBtn {
+        margin-left: 0.5rem;
+    }
+}
+
+.contentStandby__main {
+    padding: 0.2rem 1rem;
+    background-color: #FFE2E2;
+    color: #FF4343;
+    border: #FF4343 solid 1px;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+
+
+}
+
+.contentstandby {
+    .c-input {
+        width: 65%;
+    }
+
+    .btnAddCtg {
+        min-width: 6rem;
+        color: #fff;
+        background-color: #5DBDB1;
+        border-radius: 0.5rem;
+        font-size: 1.4rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        cursor: pointer;
+    }
+}
+
+/*
+* ------------
+* 入店フロー
+* ------------
+*/
+.contentflow {
+    .c-btnAdd {
+        margin-top: 3rem;
+    }
+}
+
+.mainItem--flow {
+    .c-textarea {
+        margin-top: 3rem;
+    }
+}
+
+.contentFlow__item {
+    margin-top: 3rem;
+    border: solid g.$color_admin_border 1px;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    .c-delBtn {
+        margin-left: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+.contentFlow__text {
+    .c-textarea {
+        margin-top: 1rem;
+    }
+}
+
+/*
+* ------------
+* アクセス
+* ------------
+*/
+.mainItem--access {
+    .c-textarea {
+        margin-top: 3rem;
+    }
+}
+
+.mainItem--access .contentAccess__text {
+    >label {
+        margin-top: 1rem;
+        display: block;
+
+        input,
+        textarea {
+            margin-top: .5rem;
+        }
+    }
+
+    .map {
+        height: 30rem;
+        margin-top: 1rem;
+        background-color: g.$color_admin_back;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ddd;
+
+        &::before {
+            position: absolute;
+            content: "ここにマップが表示されます。";
+        }
+
+        iframe {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+/*
+* ------------
+* 質問
+* ------------
+*/
+.contentfaq {
+    .c-btnAdd {
+        margin-top: 3rem;
+    }
+}
+
+.mainItem--faq {
+    .c-textarea {
+        margin-top: 3rem;
+    }
+}
+
+.contentFaq__item {
+    margin-top: 3rem;
+    border: solid g.$color_admin_border 1px;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    .c-delBtn {
+        margin-left: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+.contentFaq__text {
+    label {
+        display: block;
+
+        @include g.mq(md, min) {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .c-input,
+        .c-textarea {
+            @include g.mq(md, min) {
+                width: calc(100% - 5rem);
+            }
+        }
+    }
+
+    .c-textarea {
+        margin-top: 1rem;
+    }
+}
+
+/*
+* ------------
+* グループ
+* ------------
+*/
+.contentgroup{
+    >.c-btnAdd{
+        margin-top: 3rem;
+    }
+}
+
+.mainItem--group{
+    >.c-textarea{
+        margin-top: 3rem;
+    }
+}
+
+.contentgroupInner {
+    @include g.mq(md, min) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.contentGroup__item {
+    width: 100%;
+    margin: 0.5rem;
+    border: solid g.$color_admin_border 1px;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    @include g.mq(md, min) {
+        width: calc(100%/2 - 1rem);
+    }
+
+    .c-delBtn {
+        margin-left: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+.contentGroup__item.is-grey {
+    background-color: #ededed;
+}
+
+.contentgroupInner {}
+
+.contentGroup__item {}
+
+.formSetGroup {
+    display: block;
+
+    @include g.mq(lg, min) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    >div {
+        margin-top: 1rem;
+        width: 100%;
+        @include g.mq(lg, min) {
+            width: calc(100%/2 - 1rem);
+        }
+
+        label {
+            input {
+                display: block;
+                margin-top: .5rem;
+            }
+        }
+    }
+
+    .address {
+        width: 100%;
+    }
+}
+
+.btnSetgroup {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;
+    border-top: 1px solid g.$color_admin_border;
+    padding-top: 1rem;
+
+    .c-switch {
+        min-width: 8.5rem;
+        width: 30%;
+        margin: 0.5rem;
+
+        .label {
+            li {
+                font-size: 1rem;
+                margin-right: 0;
+            }
+        }
+
+        .slider::before {
+            line-height: 2.4;
+            font-size: 1rem;
+        }
+    }
+
+    .c-btn {
+        font-size: 1.2rem;
+        width: 30%;
+        padding: 0.8rem 0;
+    }
+}
+
+/*
+* ------------
+* SNS
+* ------------
+*/
+.mainItem--sns {
+    .c-textarea {
+        margin-top: 3rem;
+    }
+}
+
+.contentSns__item {
+    max-width: 30rem;
+}
+
+/*
+* ------------
+* コンタクト
+* ------------
+*/
+.contentContact__text {
+    display: block;
+
+    @include g.mq(lg, min) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    >label {
+        margin-top: 1rem;
+        width: calc(100%/2 - 1rem);
+
+        input {
+            display: block;
+            margin-top: .5rem;
+        }
+
+        span {
+            width: 100%;
+        }
+
+        .c-radio {
+            margin-top: 1rem;
+        }
+
+    }
+
+    .tel {
+        width: 100%;
+
+        input {
+            width: calc(100%/2 - 1rem);
+        }
+    }
+}
+
+/*
+* ------------
+* プレイヤー
+* ------------
+*/
+.contentplayer{
+    .c-btnAdd{
+        margin-top: 3rem;
+    }
+}
+
+.contentplayerInner {
+    @include g.mq(md, min) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.contentPlayer__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contentPlayer__item {
+    width: 100%;
+    margin: 0.5rem;
+    border: solid g.$color_admin_border 1px;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    @include g.mq(md, min) {
+        width: calc(100%/2 - 1rem);
+    }
+
+    @include g.mq(lg, min) {}
+
+    .c-imgBox {
+        background-color: g.$color_admin_back;
+        width: 100%;
+        height: auto;
+    }
+
+    .c-imgBoxView{
+        height: 24rem;
+    }
+
+    .c-delBtn {
+        margin-left: auto;
+        margin-bottom: 1rem;
+    }
+
+    .c-switch{
+        width: 50%;
+        margin: 1rem auto 0;
+    }
+}
+
+.contentPlayer__text{
+    >label{
+        display: block;
+        margin-top: 1rem;
+        .c-input{
+            margin-top: .5rem;
+        }
+    }
+    .c-radio{
+        margin-top: 1rem;
+    }
+}
+
+.contentPlayer__item.is-grey {
+    background-color: #ededed;
+}
+
+.contentPlayer__photo{
+    width: calc(50% - 1rem);
+}
+
+.formSetPlayer {
+    width: 50%;
+    display: block;
+
+    >div {
+        margin-top: 1rem;
+        &:first-of-type{
+            margin-top: 0;
+        }
+
+        label {
+            input {
+                display: block;
+                margin-top: .5rem;
+            }
+        }
+    }
+
+    .address {
+        width: 100%;
+    }
+}
+
+.btnSetPlayer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+
+    .c-switch {
+        min-width: 8.5rem;
+        width: 30%;
+        margin: 0.5rem;
+
+        .label {
+            li {
+                font-size: 1rem;
+                margin-right: 0;
+            }
+        }
+
+        .slider::before {
+            line-height: 2.4;
+            font-size: 1rem;
+        }
+    }
+
+    .c-btn {
+        font-size: 1.2rem;
+        width: 40%;
+        padding: 0.8rem 0;
+    }
+}
+
+/*
+* ------------
+* 各タイトルカラー
+* ------------
+*/
+.mainItem--info .mainItem__title {
+    border-color: #FF77B8;
+}
+
+.c-addMainBtn .btn--info a {
+    border-color: #FF77B8;
+    background-color: #FFEDF6;
+    color: #FF77B8;
+}
+
+.mainItem--free .mainItem__title {
+    border-color: #FF4343;
+}
+
+.c-addMainBtn .btn--free a {
+    border-color: #FF4343;
+    background-color: #FFE2E2;
+    color: #FF4343;
+}
+
+.mainItem--img .mainItem__title {
+    border-color: #FFDE70;
+}
+
+.c-addMainBtn .btn--img a {
+    border-color: #FFAA00;
+    background-color: #FFF6C7;
+    color: #FFAA00;
+}
+
+.mainItem--slider .mainItem__title {
+    border-color: #25A798;
+}
+
+.mainItem--mv .mainItem__title {
+    border-color: #26dfdc;
+}
+
+.c-addMainBtn .btn--mv a {
+    border-color: #5ebdb1;
+    background-color: #e6fbf8;
+    color: #5ebdb1;
+}
+
+.mainItem--imgs .mainItem__title {
+    border-color: #FFDE70;
+}
+
+.mainItem--recep .mainItem__title {
+    border-color: #D070FF;
+}
+
+.mainItem--standby .mainItem__title {
+    border-color: #255118;
+}
+
+.mainItem--flow .mainItem__title {
+    border-color: #FF77B8;
+}
+
+.mainItem--access .mainItem__title {
+    border-color: #FF4343;
+}
+
+.mainItem--faq .mainItem__title {
+    border-color: #FFDE70;
+}
+
+.mainItem--group .mainItem__title {
+    border-color: #25A798;
+}
+
+.mainItem--xsns .mainItem__title {
+    border-color: #266BDF;
+}
+
+.mainItem--contact .mainItem__title {
+    border-color: #FFDE70;
+}
+
+.mainItem--player .mainItem__title {
+    border-color: #D070FF;
+}

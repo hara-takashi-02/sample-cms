@@ -1,0 +1,22 @@
+[
+  {
+    "font_id": 1,
+    "font_name": "サンセリフ（sans-serif）",
+    "font_code": "sans-serif",
+    "font_choice": 1,
+    "font_order": 0,
+    "status": 0,
+    "regist_dt": "0000-00-00 00:00:00",
+    "update_dt": "0000-00-00 00:00:00"
+  },
+  {
+    "font_id": 2,
+    "font_name": "セリフ（serif）",
+    "font_code": "serif",
+    "font_choice": 0,
+    "font_order": 0,
+    "status": 0,
+    "regist_dt": "0000-00-00 00:00:00",
+    "update_dt": "0000-00-00 00:00:00"
+  }
+]

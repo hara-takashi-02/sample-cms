@@ -1,0 +1,22 @@
+[
+    {
+        "item_id": 1,
+        "item_root": 12,
+        "item_type": 1,
+        "item_detail": "フリーコード",
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 2,
+        "item_root": 13,
+        "item_type": 0,
+        "item_detail": "フリーテキスト",
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    }
+]

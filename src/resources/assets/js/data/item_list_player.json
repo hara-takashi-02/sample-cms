@@ -1,0 +1,34 @@
+[
+    {
+        "item_id": 1,
+        "item_root": 29,
+        "item_photo": "test.jpg",
+        "item_url": "https://google.com/",
+        "item_target": 1,
+        "item_alt": 1,
+        "item_text1": "テキスト1",
+        "item_text2": "テキスト2",
+        "item_text3": "テキスト3",
+        "item_text4": "テキスト4",
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 2,
+        "item_root": 29,
+        "item_photo": "test.jpg",
+        "item_url": "https://google.com/",
+        "item_target": 0,
+        "item_alt": 0,
+        "item_text1": "テキスト1",
+        "item_text2": "テキスト2",
+        "item_text3": "",
+        "item_text4": "",
+        "item_order": 1,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    }
+]

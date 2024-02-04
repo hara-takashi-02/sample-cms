@@ -1,0 +1,62 @@
+[
+    {
+        "item_id": 1,
+        "item_root": 20,
+        "item_type": 0,
+        "item_photo": "test.jpg",
+        "item_alt": "店内写真",
+        "item_target": 0,
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 2,
+        "item_root": 20,
+        "item_type": 0,
+        "item_photo": "",
+        "item_alt": "alt設定2",
+        "item_target": 1,
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 3,
+        "item_root": 20,
+        "item_type": 0,
+        "item_photo": "test.jpg",
+        "item_alt": "alt設定3",
+        "item_target": 1,
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 4,
+        "item_root": 20,
+        "item_type": 0,
+        "item_photo": "test.jpg",
+        "item_alt": "alt設定4",
+        "item_target": 1,
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    },
+    {
+        "item_id": 5,
+        "item_root": 20,
+        "item_type": 0,
+        "item_photo": "test.jpg",
+        "item_alt": "alt設定5",
+        "item_target": 1,
+        "item_order": 0,
+        "status": 0,
+        "regist_dt": "0000-00-00 00:00:00",
+        "update_dt": "0000-00-00 00:00:00"
+    }
+]

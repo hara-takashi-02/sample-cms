@@ -1,0 +1,13 @@
+@use "../global" as g;
+/*================
+ l-main
+ ================*/
+
+.l-main {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    @include g.mq(md, min) {
+        padding: 1rem;
+    }
+}
